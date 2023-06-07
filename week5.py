@@ -7,7 +7,7 @@ threshold = 14
 
 # Read image in grayscale
 
-image = cv2.imread('Image-detection/demo/Resources/Photos/Sample Image.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('Photos/Sample Image.jpg', cv2.IMREAD_GRAYSCALE)
 
 #  Convert into black and white image 
 _, binary_image = cv2.threshold(image, threshold, 255, cv2.THRESH_BINARY_INV)
