@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread("Image-detection/demo/Resources/Photos/trees.jpeg")
+image = cv2.imread("Photos/trees.jpeg")
 
 blank = np.zeros(image.shape, dtype='uint8')
 
